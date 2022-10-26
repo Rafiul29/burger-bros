@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger  Bros</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Bros</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer type="module"></script>
+  </head>
 
-    <h2 class="text-8xl font-semibold">Tailwind Css</h2>
-    
+  <body class="bg-gray-100 text-gray-700">
+    <header class="bg-gray-200">
+      <nav class="container mx-auto flex justify-between py-5">
+        <h2 class="logo text-xl font-semibold">
+          Burger <span class="text-orange-500">Bros</span>
+        </h2>
+        <ul class="links flex gap-5">
+          <li>
+            <a class="hover:text-orange-500 duration-300" href="#">Home</a>
+          </li>
+          <li>
+            <a class="hover:text-orange-500 duration-300" href="#">Burgers</a>
+          </li>
+          <li>
+            <a class="hover:text-orange-500 duration-300" href="#">Orders</a>
+          </li>
+          <li>
+            <a class="hover:text-orange-500 duration-300" href="#">Support</a>
+          </li>
+          <li>
+            <a class="hover:text-orange-500 duration-300" href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-
-</body>
+    <section class="burger-section container mx-auto py-10">
+      <div class="burgers-card-wrapper grid grid-cols-4 gap-5 justify-items-center">
+        <!-- single burger stay here -->
+        
+      </div>
+    </section>
+  </body>
 </html>
